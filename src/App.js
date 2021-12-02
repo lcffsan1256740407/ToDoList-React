@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+// 引入组件
+// import Header from './component/Header'
+// import Context from './component/Context'
+// import Footer from './component/Footer'
 
+import styles from  './App.less'
+
+// 兜底的组件App
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={styles.App}>
+      sad
     </div>
   );
 }
